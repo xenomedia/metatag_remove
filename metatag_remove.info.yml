@@ -1,0 +1,6 @@
+name: Metatag Remove
+type: module
+description: Removes the metatags added by Drupal core.
+core: 8.x
+package: SEO
+version: 1.0
