@@ -1,4 +1,10 @@
 <?php
+
+/**
+ * @file
+ * Removes the metatags added by Drupal core.
+ */
+
 /**
  * Implements hook_page_attachments_alter().
  */
@@ -10,7 +16,7 @@ function metatag_remove_page_attachments_alter(&$page) {
     'MobileOptimized',
     'HandheldFriendly',
     'viewport',
-    'cleartype'
+    'cleartype',
   ];
   // Unset loop.
   foreach ($page['#attached']['html_head'] as $index => $parts) {
