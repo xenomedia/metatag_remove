@@ -1,0 +1,13 @@
+{
+  "name": "xenomedia/metatag_remove",
+  "type": "drupal-custom-module",
+  "description": "Drupal 8 Module that removes actions added by Drupal core.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://github.com/xenomedia/metatag_remove",
+  "support": {
+    "issues": "https://github.com/xenomedia/metatag_remove/issues",
+    "source": "https://github.com/xenomedia/metatag_remove"
+  },
+  "require": { }
+}
